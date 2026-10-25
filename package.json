@@ -1,0 +1,17 @@
+{
+  "name": "turbo-clash-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Turbo Clash çok oyunculu oda sunucusu",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
